@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Korean</title>
+
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Typing Korean</h1>
+        <nav></nav>
+    </header>
+    <div id="game-container">
+        <div id="instruction-area">
+            <h2>Type this:</h2>
+            <h3 id="target" lang="ko">단어</h3>
+            <h4 id="meaning">meaning</h4>
+        </div>
+        <div id="input-area">
+            <form action="submit" id="text-input-form">
+                <input type="text" name="text-input" id="text-input" autocomplete="off" lang="ko" placeholder="Type here">
+            </form>
+            <div id="keyboard-layout"></div>
+        </div>
+    </div>
+    <footer>
+        <nav></nav>
+    </footer>
+
+    <script src="js/wordlist.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
